@@ -42,6 +42,14 @@ h1 .em{background:#000;color:var(--yellow);padding:0 14px;border-radius:14px;dis
 footer{text-align:center;margin-top:60px;color:var(--gray);font-size:13px;}
 footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
 @media(max-width:480px){.card-head{flex-direction:column;text-align:center;align-items:center;}.photo{flex-basis:auto;}.slogan{text-align:left;}}
+
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px;}
+.cta a{text-decoration:none;font-weight:800;font-size:15px;padding:14px 28px;border-radius:100px;transition:transform .15s ease, box-shadow .15s ease;}
+.cta a:hover{transform:translateY(-2px);}
+.cta .primary{background:#000;color:var(--yellow);box-shadow:0 8px 22px rgba(0,0,0,.25);}
+.cta .secondary{background:rgba(0,0,0,.08);color:#000;border:1px solid rgba(0,0,0,.22);}
+.vote-btn{display:block;text-align:center;margin-top:16px;background:#000;color:var(--yellow);text-decoration:none;font-weight:800;font-size:14px;padding:12px 14px;border-radius:12px;transition:transform .15s ease, background .15s ease;}
+.vote-btn:hover{transform:translateY(-2px);background:#141414;}
 </style>
 </head>
 <body>
@@ -55,6 +63,11 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
     <div class="meta">
       <span class="pill">★ 14 кандидатов</span>
       <span class="pill">Т-Банк · внутренний конкурс</span>
+    </div>
+  
+    <div class="cta">
+      <a class="primary" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform" target="_blank" rel="noopener">★ Проголосовать</a>
+      <a class="secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewanalytics" target="_blank" rel="noopener">📊 Рейтинг голосов</a>
     </div>
   </div>
 </header>
@@ -80,7 +93,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно понять, почему проседает выдача, падает одобрение, возникают повторяющиеся ошибки агентов или где именно ломается процесс.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=%D0%A0%D0%B0%D1%81%D1%81%D1%80%D0%BE%D1%87%D0%BA%D0%B0%20360%20%E2%80%94%20%D0%9B%D0%B5%D0%BD%D0%B0%20%D0%9D%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «Рассрочка 360»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -101,7 +116,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно разобраться в отчётах или B2B, корректно зафиксировать информацию либо понять, как выстроить рабочую коммуникацию со сложным партнёром.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=B2B-%D0%9D%D0%B0%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%BE%D1%80%20%E2%80%94%20%D0%9B%D0%B5%D1%80%D0%B0%20%D0%A1%D0%BF%D0%B0%D1%81%D0%BE%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «B2B-Навигатор»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -122,7 +139,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно выстроить контакт с партнёром, усилить доверие, адаптироваться к изменившейся ситуации и сохранить устойчивую рабочую связь.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=MISS%20TFitness%20%E2%80%94%20%D0%AE%D0%BB%D1%8F%20%D0%9A%D0%B2%D0%B0%D1%80%D1%82%D0%B0" target="_blank" rel="noopener">★ Голосовать за «MISS TFitness»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -143,7 +162,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужна сильная переговорная позиция, решение win-win, аргументация через цифры или понятная стратегия роста Т-Банка внутри партнёра.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20Win-Win%20%E2%80%94%20%D0%9B%D0%B5%D0%BD%D0%B0%20%D0%A1%D0%B0%D0%B2%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «Архитектор Win-Win»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -164,7 +185,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Непонятно, в чём проблема, кого внутри банка нужно подключить и как быстрее всего прийти к рабочему решению.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=%D0%91%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B4%D0%B8%D0%B0%D0%B3%D0%BD%D0%BE%D1%81%D1%82%20%E2%80%94%20%D0%9D%D0%B0%D1%82%D0%B0%D1%88%D0%B0%20%D0%A1%D0%B0%D0%B2%D0%B8%D0%BD%D0%B0" target="_blank" rel="noopener">★ Голосовать за «Банковский диагност»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -185,7 +208,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно найти точки роста, собрать понятную систему работы, адаптировать тактику под партнёра или помочь сотруднику быстрее вырасти.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=Lady%20Synergy%20%E2%80%94%20%D0%9B%D0%B5%D0%BD%D0%B0%20%D0%93%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «Lady Synergy»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -206,7 +231,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно собрать вокруг задачи несколько команд, разобраться в метриках, договориться с партнёром и довести инициативу до реального бизнес-результата.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=T_SalesUp%20%E2%80%94%20%D0%9D%D0%B0%D1%82%D0%B0%D1%88%D0%B0%20%D0%A3%D0%BB%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «T_SalesUp»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -227,7 +254,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно быстро разобраться в процессе или данных, найти нужную информацию, решить проблемный кейс, протестировать новое или получить надёжную экспертную поддержку.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=%D0%9C%D0%B0%D0%B3%D0%B8%D1%81%D1%82%D1%80%20%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9%20%E2%80%94%20%D0%AE%D0%BB%D1%8F%20%D0%A7%D0%B5%D1%80%D0%BD%D0%B8%D0%B9" target="_blank" rel="noopener">★ Голосовать за «Магистр знаний»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -248,7 +277,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно оживить сложный кейс, вернуть партнёра, разобрать отказ, связать несколько команд или подготовить несколько сценариев решения.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=%D0%92%D0%BE%D1%80%D1%87%D1%83%D0%BD%20%E2%80%94%20%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B0%20%D0%9B%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2" target="_blank" rel="noopener">★ Голосовать за «Ворчун»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -269,7 +300,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно подобрать сильное решение под партнёра, разобрать его метрики, подготовиться к серьёзным переговорам или быстро освоить новый инструмент.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=GSMQueen%20%E2%80%94%20%D0%96%D0%B5%D0%BD%D1%8F%20%D0%97%D0%B2%D0%B5%D1%80%D0%B5%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «GSMQueen»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -290,7 +323,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Партнёр говорит «дорого», переговоры заходят в тупик или нужно спокойно разобрать возражение и перевести разговор с цены на ценность.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=Pavel_WinWin%20%E2%80%94%20%D0%9F%D0%B0%D1%88%D0%B0%20%D0%A8%D1%83%D0%BB%D1%8C%D0%B3%D0%B0" target="_blank" rel="noopener">★ Голосовать за «Pavel_WinWin»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -311,7 +346,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужен свежий взгляд, помощь в сложной ситуации, совместный разбор задачи или человек, который не бросит вопрос на полпути.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=VictoryStar%20%E2%80%94%20%D0%92%D0%B8%D0%BA%D0%B0%20%D0%95%D0%BF%D0%B8%D1%84%D0%B0%D0%BD%D0%BE%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «VictoryStar»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -332,7 +369,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно прокачать аккаунтинг, разобраться в CRM или данных, посмотреть на развитие партнёра свежим взглядом либо получить поддержку в работе с людьми.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=Account%20Mentor%20%E2%80%94%20%D0%98%D1%80%D0%B8%D0%BD%D0%B0%20%D0%A0%D1%83%D0%B4%D0%B5%D0%BD%D0%BA%D0%BE" target="_blank" rel="noopener">★ Голосовать за «Account Mentor»</a>
+      </article>
 
     <article class="card">
       <div class="card-head">
@@ -353,7 +392,9 @@ footer .big{color:var(--ink);font-weight:700;font-size:15px;margin-bottom:6px;}
         <div class="lbl">★ Иди ко мне, если</div>
         <p>Нужно почувствовать настроение партнёра, подобрать правильный тон, найти индивидуальное решение или объяснить сложный вопрос так, чтобы он стал понятным.</p>
       </div>
-    </article>
+    
+        <a class="vote-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSebT3IHf7AR79xAZQfgGdTrVkwaylXqyKqqIXF3dl6kcYGmeg/viewform?usp=pp_url&entry.1279463197=Partner%20Radar%20%E2%80%94%20%D0%9E%D0%BB%D1%8F%20%D0%95%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B0" target="_blank" rel="noopener">★ Голосовать за «Partner Radar»</a>
+      </article>
   </section>
   <footer>
     <div class="big">★ Голосуйте за свою Т-звезду</div>
